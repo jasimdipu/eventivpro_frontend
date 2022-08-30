@@ -1,0 +1,46 @@
+.eventiv-upcoming-events-section{
+    padding:50px 0;
+}
+.eventiv-section-title{
+    text-align: center;
+}
+.eventiv-section-title h2{
+    font-weight: bold;
+    position: relative;
+}
+.eventiv-section-title h2::before{
+    position: absolute;
+    top: 120%;
+    left: 45%; 
+    content: '';
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgb(39, 211, 211);
+}
+.eventiv-single-event{
+    background-color: #ddd; 
+    margin-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.single-event-img{ 
+    overflow: hidden; 
+}
+.single-event-img img{
+    height: 100%; 
+    transition: .4s;
+}
+.single-event-img img:hover{
+    transform: scale(1.2);
+}
+.single-event-content{
+    margin-left: 20px;
+    padding: 15px;
+}
+.details-info{
+    margin-bottom: 30px;
+}

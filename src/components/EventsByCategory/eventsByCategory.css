@@ -1,0 +1,36 @@
+
+.eventiv-events-by-category{
+    padding:50px 0;
+    background-color: #032E3A;
+    color:#fff;
+}
+
+.events-by-category-title{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.eventiv-single-category-event{
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.eventiv-single-category-event img{
+    background-color: rgb(194, 135, 7);
+    border-radius: 10px;
+    opacity: .6;
+    transition: .5s;
+}
+.eventiv-single-category-event:hover img{
+    opacity: .8;
+    cursor: pointer;
+}
+.title-category{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title-category h6{
+    font-size: 30px;
+    font-weight: bold;
+}
