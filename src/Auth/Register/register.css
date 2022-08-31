@@ -1,0 +1,18 @@
+.RegisterPage{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.reg-bg-img img{ 
+    height: 100vh;
+    display: inline-block; 
+}
+.regInput{
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #ddd;
+    padding: 6px 15px;
+    border:1px solid rgb(167, 151, 151);
+    border-radius: 5px;
+    outline: none;
+}
