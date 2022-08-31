@@ -36,7 +36,7 @@ const Login = () => {
                                 <button className='loginBtn-eventiv'>Login</button>
                                 <div className='mt-5'>
                                     <h6> Create New Account</h6>
-                                    <button className='new-account-create-eventiv mt-3'><Link to='/register'></Link>  Register new account</button>
+                                    <button className='new-account-create-eventiv mt-3'><Link to='/register'></Link>Sign Up</button>
                                 </div>
                             </form>
                         </div>

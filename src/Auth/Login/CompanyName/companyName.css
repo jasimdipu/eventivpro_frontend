@@ -1,0 +1,19 @@
+
+
+.company-name-field{
+    overflow: hidden; 
+    text-align: center;
+    margin-top: 40px;
+}
+.company-name-field input{
+    width: 400px; 
+    margin-bottom: 15px; 
+    background-color: #ddd;
+    padding: 6px 15px;
+    border:1px solid rgb(167, 151, 151);
+    border-radius: 5px;
+    outline: none;
+} 
+.company-name-field .eventiv-attend-btn{
+     
+}
