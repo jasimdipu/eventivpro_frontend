@@ -1,0 +1,25 @@
+.userSidebarSection{
+    background: #0C0C0C;
+    position: fixed; 
+    width: 250px;
+    left: 0;
+    top: 55px; 
+    bottom: 0;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 15%);
+    overflow-x: auto;
+    transition: all 0.3s;
+}
+.menu-item ul{
+    padding: 0;
+    margin: 0;
+}
+.menu-item li{
+    list-style: none;
+    color:#fff;
+    background-color: #010101;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: rgba(144, 144, 175, 0.25) 0px 13px 27px -5px, rgba(182, 155, 155, 0.3) 0px 8px 16px -8px;
+}

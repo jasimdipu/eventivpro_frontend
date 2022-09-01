@@ -1,0 +1,36 @@
+
+.userDashboard{
+    width: 100%;
+}
+.eventive-logo-dashboard{
+    font-weight: bold;
+    background: #121FCF;
+    background: linear-gradient(to right, #CF191F 27%, #11CF3D 96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.userNav{
+    width: 100%; 
+}
+.middle-text{
+    width: 1100px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+/*======================== */
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute; 
+        left: -120px;
+    }
+}
