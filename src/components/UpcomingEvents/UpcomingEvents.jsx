@@ -2,7 +2,7 @@ import React from 'react';
 import * as MdIcons from "react-icons/md";
 import { IoIosPricetag } from "react-icons/io";
 
-import eventOne from './../../assets/img/1.jpg'
+import eventOne from './../../assets/img/event-man.jpg'
 import eventTwo from './../../assets/img/2.jpg'
 import eventThree from './../../assets/img/3.jpg'
 import eventFour from './../../assets/img/4.jpg'

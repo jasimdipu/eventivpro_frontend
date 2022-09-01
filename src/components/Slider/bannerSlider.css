@@ -1,12 +1,12 @@
 .eventiv-bannerSliders{
-    height: 80vh !important;
+    height: 95vh !important;
     overflow: hidden;
 } 
 .carousel-indicators{
     display: none;
 }
 .carousel-item img{
-    height: 90vh; 
+    height: 95vh; 
     background-size: cover;
     background-position: center center;
     opacity: .4;

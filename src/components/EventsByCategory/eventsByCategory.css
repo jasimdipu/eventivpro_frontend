@@ -13,7 +13,8 @@
     position: relative;
     border-radius: 10px;
     margin-bottom: 20px;
-}
+    box-shadow: rgba(155, 197, 240, 0.25) 0px 4px 8px -2px, rgba(142, 175, 241, 0.08) 0px 0px 0px 1px;
+} 
 .eventiv-single-category-event img{
     background-color: rgb(194, 135, 7);
     border-radius: 10px;

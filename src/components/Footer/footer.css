@@ -1,0 +1,27 @@
+.footer-section{
+    padding: 50px 0;
+    background-color: #1F1F1F;
+    color:#fff;
+}
+.footer-logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    background: #121FCF;
+    background: linear-gradient(to right, #CF191F 27%, #11CF3D 96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-section li{
+    list-style: none;
+    line-height: 30px;
+}
+.footer-section li a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyright-text{
+    background-color: #ddd;
+    text-align: center;
+    padding: 5px;
+}
