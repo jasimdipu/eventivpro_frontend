@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import * as FcIcons from "react-icons/fc";
+import * as FaIcons from "react-icons/fa";
 
 import loginBg from './../../assets/img/register-bg.png'
 import './login.css'
@@ -36,7 +38,15 @@ const Login = () => {
                                 <button className='loginBtn-eventiv'>Login</button>
                                 <div className='mt-5'>
                                     <h6> Create New Account</h6>
-                                    <button className='new-account-create-eventiv mt-3'><Link to='/register'></Link>Sign Up</button>
+                                    <Link to='/register' style={{textDecoration: 'none', color: '#fff'}}> <button className='new-account-create-eventiv mt-3'>Sign Up</button></Link>
+                                </div>
+                                <div className='mt-3'>
+                                    <h6>Login with social: </h6>
+                                    <div className="login-social">
+                                        <button><FcIcons.FcGoogle /></button>
+                                        <button><FaIcons.FaFacebookSquare className='facebook-login' /></button>
+                                        <button><FaIcons.FaTwitter className='twitter-login' /></button>
+                                    </div>
                                 </div>
                             </form>
                         </div>

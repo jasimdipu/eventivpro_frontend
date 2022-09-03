@@ -1,7 +1,11 @@
 
 .eventiv-events-by-category{
     padding:50px 0;
-    background-color: #032E3A;
+    /* background-color: #032B36; */
+    background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1A2980, #26D0CE ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color:#fff;
 }
 
@@ -18,11 +22,11 @@
 .eventiv-single-category-event img{
     background-color: rgb(194, 135, 7);
     border-radius: 10px;
-    opacity: .6;
+    opacity: .8;
     transition: .5s;
 }
 .eventiv-single-category-event:hover img{
-    opacity: .8;
+    opacity: .1;
     cursor: pointer;
 }
 .title-category{

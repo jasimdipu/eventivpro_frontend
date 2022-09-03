@@ -20,7 +20,7 @@ const EventsByCategory = () => {
                             <div className="eventiv-single-category-event">
                                 <img src={eventOne} className='img-fluid' alt="" />
                                 <div className="title-category">
-                                    <h6>Sports</h6>
+                                    <h6>Ticketing</h6>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ const EventsByCategory = () => {
                             <div className="eventiv-single-category-event">
                                 <img src={eventTwo} className='img-fluid' alt="" />
                                 <div className="title-category">
-                                    <h6>Events</h6>
+                                    <h6>Artist and Contributors Management</h6>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,47 @@ const EventsByCategory = () => {
                             <div className="eventiv-single-category-event">
                                 <img src={eventThree} className='img-fluid' alt="" />
                                 <div className="title-category">
-                                    <h6>Motivation</h6>
+                                    <h6>Volunteer Management</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="eventiv-single-category-event">
+                                <img src={eventOne} className='img-fluid' alt="" />
+                                <div className="title-category">
+                                    <h6>Staff &amp; Contractor Management</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="eventiv-single-category-event">
+                                <img src={eventTwo} className='img-fluid' alt="" />
+                                <div className="title-category">
+                                    <h6>Statistics and Reporting</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="eventiv-single-category-event">
+                                <img src={eventThree} className='img-fluid' alt="" />
+                                <div className="title-category">
+                                    <h6>Email Manager</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="eventiv-single-category-event">
+                                <img src={eventOne} className='img-fluid' alt="" />
+                                <div className="title-category">
+                                    <h6>Website Integration</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="eventiv-single-category-event">
+                                <img src={eventTwo} className='img-fluid' alt="" />
+                                <div className="title-category">
+                                    <h6>Event Management</h6>
                                 </div>
                             </div>
                         </div>

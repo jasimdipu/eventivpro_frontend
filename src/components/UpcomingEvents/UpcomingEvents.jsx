@@ -11,8 +11,8 @@ import './upcomingEvents.css'
 const UpcomingEvents = () => {
     return (
         <>
-            <div className="container">
-                <div className='eventiv-upcoming-events-section'>
+            <div className="eventiv-upcoming-events-section ">
+                <div className='container'>
                     <div className="eventiv-section-title">
                         <h2>Upcoming Events</h2>
                     </div>

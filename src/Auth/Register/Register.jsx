@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+
 
 import loginBg from './../../assets/img/register-bg-img.jpg'
 import './register.css'
@@ -48,7 +49,7 @@ const Register = () => {
                            </div>
                            <div className='text-center mt-3'>
                                 <p>Already have an account <Link to='/login'>Login</Link> </p>
-                           </div>
+                           </div> 
                        </form>
                    </div>
                </div>

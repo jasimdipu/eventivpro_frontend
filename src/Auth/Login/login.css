@@ -56,7 +56,25 @@
     border-radius: 10px;
     color:#fff;
     border: none;
+    text-decoration: none;
 }
 .loginBtn-eventiv:hover{
     opacity: .7;
+}
+.login-social{
+    text-align: center;
+}
+.login-social button{
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 30px;
+    border:none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.facebook-login{
+    color:#0D89EF;
+}
+.twitter-login{
+     color: #1DA1F2;
 }

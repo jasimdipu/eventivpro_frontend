@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactUs from '../ContactUs/ContactUs';
 import EventsByCategory from '../EventsByCategory/EventsByCategory';
 import Footer from '../Footer/Footer';
 import Navigation from '../Navigation/Navigation';
@@ -12,6 +13,7 @@ const Home = () => {
             <BannerSlider />
             <UpcomingEvents />
             <EventsByCategory />
+            <ContactUs />
             <Footer />
         </div>
     );
