@@ -4,6 +4,7 @@ import Login from "./Auth/Login/Login";
 import Register from "./Auth/Register/Register";
 import SignUpDetails from "./Auth/SignUpDetails/SignUpDetails";
 import Home from "./components/Home/Home"; 
+import Dashboard from "./pages/AdminDashboard/Dashboard/Dashboard";
 import HomeUserDashboard from "./pages/UserDashboard/HomeUserDashboard/HomeUserDashboard";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/signup-details' element={<SignUpDetails />} />  
           <Route path='/company-name' element={<CompanyName />} />   
           <Route path='/user-dashboard' element={<HomeUserDashboard />} />   
+          <Route path='/dashboard' element={<Dashboard />} />   
 
         </Routes>
       </BrowserRouter>

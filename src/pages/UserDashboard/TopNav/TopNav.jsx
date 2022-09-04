@@ -13,7 +13,7 @@ const TopNav = () => {
     <div className="userDashboard">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='userNav'>
         <Container fluid>
-          <Navbar.Brand href="#home" className="eventive-logo-dashboard">Eventiv Pro</Navbar.Brand>
+          <Navbar.Brand href="/" className="eventive-logo-dashboard">Eventiv Pro</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <h3 className="text-light middle-text">Fetures Events</h3>

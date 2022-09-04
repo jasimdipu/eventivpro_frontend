@@ -8,6 +8,7 @@
     box-shadow: 1px 0px 5px rgb(0 0 0 / 15%);
     overflow-x: auto;
     transition: all 0.3s;
+    z-index: -1000;
 }
 .menu-item ul{
     padding: 0;

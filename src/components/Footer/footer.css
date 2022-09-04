@@ -21,7 +21,10 @@
     color: #fff;
 }
 .copyright-text{
-    background-color: #ddd;
+    background-color: #032731;
     text-align: center;
     padding: 5px;
+}
+.copyright-text p{
+    color: #ddd;
 }

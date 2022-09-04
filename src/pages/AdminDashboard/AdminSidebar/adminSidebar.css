@@ -1,0 +1,12 @@
+.admin-sidebar{
+    background-color: #2F363E;
+    height: 100%;
+    position: fixed;
+    overflow-y: hidden;
+    width: 250px;
+    color:#fff;
+}
+.logo-dasboard {
+    text-align: center;
+    margin: 20px 0;
+}
