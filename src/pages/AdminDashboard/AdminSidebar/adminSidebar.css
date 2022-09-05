@@ -6,9 +6,18 @@
     width: 250px;
     color:#fff;
 }
-.logo-dasboard {
+.logo-dasboard{
+    text-decoration: none; 
     text-align: center;
+    color:#fff;
     margin: 20px 0;
+}
+.logo-admin{
+    text-decoration: none;
+    color: #35f3f3; 
+}
+.logo-admin:hover{
+    color:blanchedalmond;
 }
 .admin-menu-items ul li{
     list-style: none;

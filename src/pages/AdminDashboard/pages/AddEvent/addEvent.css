@@ -1,5 +1,4 @@
-/* AddTicketContent */
-.add-ticket-form-content{ 
+.add-events-form-content{ 
     width: calc(100% - 250px);
     left: 250px;
     top: 0; 
@@ -11,8 +10,4 @@
     box-sizing: border-box;
     padding: 5px 10px;
     text-align: center;
-}
-.eventiv-add-ticket-form{
-    margin: 0 auto;
-    text-align: left;
 }

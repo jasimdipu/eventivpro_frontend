@@ -1,10 +1,9 @@
 import React from 'react';
 import AdminNavbar from '../../AdminNavbar/AdminNavbar';
 import AdminSidebar from '../../AdminSidebar/AdminSidebar';
-import DashboardContent from '../../DashboardContent/DashboardContent';
-import AddTicketContent from './AddTicketContent';
+import AddEventContent from './AddEventContent';
 
-const AddTicket = () => {
+const AddEvent = () => {
     return (
         <div className='admin-dashboard'>
             <div>
@@ -12,10 +11,10 @@ const AddTicket = () => {
             </div>
             <div>
                 <AdminNavbar />
-                <AddTicketContent />
+                <AddEventContent/>
             </div> 
         </div>
     );
 };
 
-export default AddTicket;
+export default AddEvent;

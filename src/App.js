@@ -5,6 +5,7 @@ import Register from "./Auth/Register/Register";
 import SignUpDetails from "./Auth/SignUpDetails/SignUpDetails";
 import Home from "./components/Home/Home"; 
 import Dashboard from "./pages/AdminDashboard/Dashboard/Dashboard";
+import AddEvent from "./pages/AdminDashboard/pages/AddEvent/AddEvent";
 import AddTicket from "./pages/AdminDashboard/pages/AddTicket/AddTicket";
 import HomeUserDashboard from "./pages/UserDashboard/HomeUserDashboard/HomeUserDashboard";
 
@@ -22,6 +23,7 @@ function App() {
 
           <Route path='/dashboard' element={<Dashboard />} />  
           <Route path='/add-ticket' element={<AddTicket />} />   
+          <Route path='/add-event' element={<AddEvent />} />   
 
         </Routes>
       </BrowserRouter>
