@@ -3,10 +3,37 @@
     left: 250px;
     top: 0; 
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #ddd;
     color: #000;
-    height: 70px;
+    height: auto;
     box-sizing: border-box;
-    padding-left: 15px;
+    padding: 5px 20px;
+}
+.admin-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box{
+    position: relative;
+}
+.search-box input{
+    width: 300px;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    padding:5px 10px;
+}
+.search-icon{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.admin-navbar .dropdown-menu{
+    z-index: 99999;
 }

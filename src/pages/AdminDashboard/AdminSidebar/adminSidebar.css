@@ -10,3 +10,20 @@
     text-align: center;
     margin: 20px 0;
 }
+.admin-menu-items ul li{
+    list-style: none;
+    margin:10px 0;
+}
+.link-menu-item{
+    text-decoration: none;
+    color:#fff; 
+}
+.link-menu-item li{
+    display: flex;
+    align-items: center; 
+    margin: 0 15px;
+    padding:0 5px;
+}
+.icon-sidebar{
+    margin-right: 10px;
+}

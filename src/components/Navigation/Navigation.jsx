@@ -43,8 +43,8 @@ const Navigation = () => {
                   Register
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="/dashboard">
+                  Admin Dashboard
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/login" className="eventiv-login-btn">
