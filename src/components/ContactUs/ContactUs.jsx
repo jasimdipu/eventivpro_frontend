@@ -23,11 +23,13 @@ const ContactUs = () => {
             </div>
             <div className="col-md-6">
               <div className="eventiv-phone-numbers">
-                <div><span><FaIcons.FaPhone className='gmail-icon' /></span></div>
                 <div>
-                  <p>+21312,342314</p>
-                  <p>+21312,342314</p>
-                  <p>+21312,342314</p>
+                  {/* <span><FaIcons.FaPhone className='gmail-icon' /></span> */}
+                </div>
+                <div>
+                  <p><FaIcons.FaPhone className='phone-icon' /> +21312,342314</p>
+                  <p><FaIcons.FaPhone className='phone-icon' /> +21312,342314</p>
+                  <p><FaIcons.FaPhone className='phone-icon' /> +21312,342314</p>
                 </div> 
               </div>
             </div>
