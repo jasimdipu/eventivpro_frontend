@@ -2,10 +2,32 @@
     background-color: #2F363E;
     height: 100%;
     position: fixed;
-    overflow-y: hidden;
+    overflow-x: auto;
     width: 250px;
     color:#fff;
 }
+/* scroll bar */
+/* width */
+.admin-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.admin-sidebar::-webkit-scrollbar-track {
+  background: #212121; 
+}
+ 
+/* Handle */
+.admin-sidebar::-webkit-scrollbar-thumb {
+  background: #4A4A4A; 
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+.admin-sidebar:-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* ======================== */
 .logo-dasboard{
     text-decoration: none; 
     text-align: center;
@@ -19,8 +41,13 @@
 .logo-admin:hover{
     color:blanchedalmond;
 }
+.admin-menu-items ul { 
+    margin: 0;
+    padding: 0;
+}
 .admin-menu-items ul li{
-    list-style: none;
+    list-style: none; 
+    margin-left: 50px;
     margin:10px 0;
 }
 .link-menu-item{
@@ -31,8 +58,61 @@
     display: flex;
     align-items: center; 
     margin: 0 15px;
-    padding:0 5px;
+    padding:0 20px;
 }
 .icon-sidebar{
     margin-right: 10px;
 }
+.item-drop{
+    background-color: transparent;
+    border: none;
+}
+.item-drop:hover{
+    color:#35f3f3;
+    background-color: transparent;
+}
+/* ===================== */
+.sidebar-item{
+    display: block; 
+    text-decoration: none;
+    color:#fff;
+  }
+  .sidebar-item:hover{
+    background-color: #0f2d37;
+  }
+  .sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+  .sidebar-title span{
+    display: flex;
+  }
+  .sidebar-title span > i{ 
+    display: inline-block;
+    width: 30px;
+  }
+  .sidebar-title i{ 
+    cursor: pointer;
+    transition: transform .3s;
+  }
+  .sidebar-item.open .sidebar-title > i{
+    transform: rotate(180deg);
+  }
+
+  .sidebar-content {
+    height: 0;
+    overflow: hidden; 
+    padding: 0 25px;
+    transition: transform .3s;
+  }
+  .sidebar-content span{
+    display: block;
+    padding: 5px 10px;
+  }
+  .sidebar-item.open > .sidebar-content{
+    height: auto; 
+    transition: .3s;
+  }
