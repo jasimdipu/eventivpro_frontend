@@ -13,3 +13,15 @@
     text-decoration: none;
     color:#000;
 }
+.contact-items, .eventiv-gmail, .eventiv-phone-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.gmail-icon{
+    font-size: 36px;
+    color:#000;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

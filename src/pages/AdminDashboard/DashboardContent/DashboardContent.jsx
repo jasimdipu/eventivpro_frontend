@@ -18,6 +18,21 @@ const DashboardContent = () => {
                <span className='p-5 bg-success d-inline-block rounded m-3'>Chart</span>  
                <span className='p-5 bg-primary d-inline-block rounded m-3'>Chart</span>  
             </div>
+            <div>
+               <span className='p-5 bg-danger d-inline-block rounded m-3'>Chart</span>  
+               <span className='p-5 bg-dark d-inline-block rounded m-3'>Chart</span>  
+               <span className='p-5 bg-warning d-inline-block rounded m-3'>Chart</span>  
+            </div> 
+            <div>
+               <span className='p-5 bg-warning d-inline-block rounded m-3'>Chart</span>  
+               <span className='p-5 bg-info d-inline-block rounded m-3'>Chart</span>  
+               <span className='p-5 bg-danger d-inline-block rounded m-3'>Chart</span>  
+            </div> 
+            <div>
+               <span className='p-5 bg-dark d-inline-block rounded m-3'>Chart</span>  
+               <span className='p-5 bg-danger d-inline-block rounded m-3'>Chart</span>  
+               <span className='p-5 bg-warning d-inline-block rounded m-3'>Chart</span>  
+            </div> 
         </div>
     );
 };
