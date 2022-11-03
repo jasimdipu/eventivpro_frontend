@@ -1,10 +1,11 @@
 .admin-sidebar{
-    background-color: #2F363E;
+    background-color: #C3BBAE; /* #2F363E*/
     height: 100%;
     position: fixed;
     overflow-x: auto;
     width: 250px;
-    color:#fff;
+    color:#000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 /* scroll bar */
 /* width */
@@ -14,7 +15,7 @@
 
 /* Track */
 .admin-sidebar::-webkit-scrollbar-track {
-  background: #212121; 
+  background: #868585; 
 }
  
 /* Handle */
@@ -52,7 +53,7 @@
 }
 .link-menu-item{
     text-decoration: none;
-    color:#fff; 
+    color:#000; 
 }
 .link-menu-item li{
     display: flex;
@@ -72,13 +73,23 @@
     background-color: transparent;
 }
 /* ===================== */
+.origin-text{
+  border-bottom: 1px solid #ddd;
+}
+.origin-text h6{
+  background-color: #35f3f3;
+  display: inline-block;
+  margin-left: 15px;
+}
+/* ===================== */
 .sidebar-item{
     display: block; 
     text-decoration: none;
-    color:#fff;
+    color:#000;
   }
   .sidebar-item:hover{
     background-color: #0f2d37;
+    color:#fff;
   }
   .sidebar-title{
     display: flex;
@@ -88,7 +99,8 @@
     cursor: pointer;
   }
   .sidebar-title span{
-    display: flex;
+    display: flex; 
+    align-items: center;
   }
   .sidebar-title span > i{ 
     display: inline-block;
